@@ -21,7 +21,29 @@
        </nav>
     </header>
     <main> 
-      
+      <section id="createAccount">
+        <h1>Create An accout</h1>
+        <div class="formContainer">
+            <form action="">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required autofocus autocomplete="name">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="name" required autocomplete="email" required>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" autocomplete="new-password" required>
+                <fieldset>
+                    <legend>Optional public biography informatin</legend>
+                    <label for="employer">employer:</label>
+                    <input type="text" name="employer" id="employer" autocomplete="organization">
+                    <label for="job-title">Job Title:</label>
+                    <input type="text" name="job-title" id="job-title" autocomplete="work">
+                    <label for="bday">Birth Day:</label>
+                    <input type="date" name="bday" id="bday" autocomplete="bday">
+                </fieldset>
+                <input type="submit" name="submit" value="creat an Account">
+            </form>
+        </div>
+      </section>
     </main>
      <footer>
 
